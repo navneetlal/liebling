@@ -2427,7 +2427,6 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   flex-direction: column;
   position: relative;
   margin-bottom: 20px;
-  height: 400px;
   background-color: var(--background-color);
   border-radius: 10px;
   border: 1px solid var(--secondary-border-color);
@@ -2440,11 +2439,9 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 .m-article-card:hover:before {
   box-shadow: var(--article-shadow-hover), 0 0 0 transparent;
 }
-
 @media only screen and (min-width: 48rem) {
   .m-article-card {
     width: calc((100% / 2) - 20px);
-    height: 420px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -2497,7 +2494,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 
 .m-article-card__picture {
   position: relative;
-  height: 200px;
+  height: 190px;
   border-radius: 10px 10px 0 0;
   background-color: var(--secondary-subtle-color);
   overflow: hidden;
@@ -2505,7 +2502,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 }
 @media only screen and (min-width: 48rem) {
   .m-article-card__picture {
-    height: 220px;
+    height: 210px;
   }
 }
 
@@ -2650,6 +2647,10 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   letter-spacing: 0.3px;
   line-height: 1.5;
   font-size: 1rem;
+}
+
+.m-article-card__timestamp {
+  padding-top: 15px;
 }
 
 .m-article-card__timestamp,

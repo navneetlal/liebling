@@ -3,7 +3,6 @@
   flex-direction: column;
   position: relative;
   margin-bottom: 20px;
-  height: 400px;
   background-color: var(--background-color);
   border-radius: 10px;
   border: 1px solid var(--secondary-border-color);
@@ -20,7 +19,6 @@
 
   @include respond-to('medium') {
     width: calc((100% / 2) - 20px);
-    height: 420px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -85,14 +83,14 @@
 
 .m-article-card__picture {
   position: relative;
-  height: 200px;
+  height: 190px;
   border-radius: 10px 10px 0 0;
   background-color: var(--secondary-subtle-color);
   overflow: hidden;
   @include transform(translateZ(0));
 
   @include respond-to('medium') {
-    height: 220px;
+    height: 210px;
   }
 }
 
@@ -233,6 +231,10 @@
   letter-spacing: 0.3px;
   line-height: 1.5;
   font-size: 1rem;
+}
+
+.m-article-card__timestamp {
+  padding-top: 15px;
 }
 
 .m-article-card__timestamp,
