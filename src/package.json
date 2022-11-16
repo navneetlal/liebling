@@ -39,7 +39,7 @@
     "husky": "^4.2.3",
     "laravel-mix": "^5.0.0",
     "path": "^0.12.7",
-    "resolve-url-loader": "3.1.2",
+    "resolve-url-loader": "5.0.0",
     "run-script-os": "^1.1.5",
     "sass": "^1.22.9",
     "sass-loader": "8.*",
